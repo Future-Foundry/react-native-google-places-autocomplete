@@ -339,7 +339,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       // https://github.com/FaridSafi/react-native-google-places-autocomplete/issues/910
       try {
         request.send();
-      } catch(error) {
+      } catch (error) {
         console.log(error);
       }
     } else if (rowData.isCurrentLocation === true) {
@@ -506,7 +506,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       // // https://github.com/FaridSafi/react-native-google-places-autocomplete/issues/910
       try {
         request.send();
-      } catch(error) {
+      } catch (error) {
         console.log(error);
       }
     } else {
@@ -580,7 +580,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       // // https://github.com/FaridSafi/react-native-google-places-autocomplete/issues/910
       try {
         request.send();
-      } catch(error) {
+      } catch (error) {
         console.log(error);
       }
     } else {
