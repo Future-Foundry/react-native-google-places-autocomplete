@@ -336,6 +336,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       request.withCredentials = requestShouldUseWithCredentials();
       setRequestHeaders(request, getRequestHeaders(props.requestUrl));
 
+      // https://github.com/FaridSafi/react-native-google-places-autocomplete/issues/910
       try {
         request.send();
       } catch(error) {
@@ -502,6 +503,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       request.withCredentials = requestShouldUseWithCredentials();
       setRequestHeaders(request, getRequestHeaders(props.requestUrl));
 
+      // // https://github.com/FaridSafi/react-native-google-places-autocomplete/issues/910
       try {
         request.send();
       } catch(error) {
@@ -575,6 +577,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
       request.withCredentials = requestShouldUseWithCredentials();
       setRequestHeaders(request, getRequestHeaders(props.requestUrl));
 
+      // // https://github.com/FaridSafi/react-native-google-places-autocomplete/issues/910
       try {
         request.send();
       } catch(error) {
